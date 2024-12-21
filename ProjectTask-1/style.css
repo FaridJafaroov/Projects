@@ -78,6 +78,7 @@ gap: 10px;
 border-radius: 4px ;
 border: 1px solid #035E89 ;
 background-color: white;
+color: #035E89;
 }
 
 .header-part-burger-menu img{
@@ -91,6 +92,7 @@ background-color: white;
     position: absolute;
     right: 0px;
    background: url(/photos/image\ 1.png);
+  
 }
 
 .information-titles-and-buttons{
@@ -149,6 +151,177 @@ border: 1px solid #035E89 ;
 background-color: #035f8900;
 }
 
+.information-banner-mobile{
+    display: none;
+}
+
+.services{
+    position: absolute;
+    top: 800px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+   margin-left: 10%;
+   
+}
+
+.services-title-and-subtitle{
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+align-items: center;
+}
+
+.services-title-and-subtitle h3{
+    font-family: Inter;
+font-size: 40px;
+font-weight: 700;
+line-height: 52px;
+text-align: center;
+}
+
+.services-title-and-subtitle h3 span{
+    color: #035E89;
+}
+
+.services-title-and-subtitle p{
+    font-family: Inter;
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+max-width: 800px;
+color: #6D6D6D;
+text-align: center;
+}
+
+.services-boxes{
+    display: flex;
+    gap: 57px;
+    margin-bottom: 100px;
+}
+
+.services-box{
+    width: 362px;
+    border: 3px solid #C5ECFF;
+    border-radius: 24px;
+    padding: 40px 27px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.services-box img{
+    width: 44px;
+    height: 44px;
+}
+
+.services-box p{
+    font-family: Inter;
+font-size: 20px;
+font-weight: 700;
+line-height: 28px;
+color: #035E89;
+}
+
+
+
+.services-box span{
+    font-family: Inter;
+font-size: 14px;
+font-weight: 600;
+line-height: 24px;
+color: #6D6D6D;
+}
+
+.box-two p{
+    max-width: 200px;
+}
+
+.box-two span{
+    max-width: 270px;
+}
+
+.box-one span br{
+    display: inline-block;
+}
+
+.safety-information{
+    position: absolute;
+    top: 200%;
+    left: 15%;
+    margin-top: 100px;
+}
+
+.safety-information-parent{
+    display: flex;
+    border-radius: 22px;
+    padding: 50px;
+    box-shadow: 0px 85.26px 181.4px 0px #15151526;
+
+}
+
+.safety-information-titles{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 850px;
+    
+}
+
+.safety-information-titles img{
+    width: 94px;
+    height: 94px;
+}
+
+.safety-information-titles p:nth-child(1){
+    font-family: Inter;
+font-size: 21.77px;
+font-weight: 700;
+line-height: 36.27px;
+}
+
+.safety-information-titles p:nth-child(2){
+    font-family: Inter;
+font-size: 18px;
+font-weight: 400;
+line-height: 29.99px;
+max-width: 380px;
+}
+
+.safety-information-banner-and-button button{
+    width: 198px;
+    height: 47px;
+    top: 440px;
+    left: 900px;
+    padding: 14px 34px;
+    gap: 10px;
+    border-radius: 4px ;
+color: white;
+background-color: #035E89;
+border: 0;    
+margin-right: 100px;
+font-family: Inter;
+}
+
+.safety-information-banner-and-button{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    position: absolute;
+    right: -100px;
+    bottom: 70px;
+}
+
+.safety-information-titles button{
+    display: none;
+}
+
+.safety-information-banner-mobile{
+    display: none;
+}
+
+
 @media screen and (max-width:768px) {
 
     .header-part-navbar{
@@ -170,6 +343,135 @@ background-color: #035f8900;
 
 .header-part-burger-menu img{
     display: inline-block;
+}
+
+.information{
+    background-image: none;
+    position: absolute;
+    top: -25px;
+}
+
+.information-titles h3{
+    font-size: 38px;
+    max-width: 300px;
+    line-height: 49px;
+}
+
+.information-titles p{
+    font-size: 14px;
+    max-width: 340px;
+}
+
+.information-titles-and-buttons{
+    margin-left: 90px;
+    margin-top: 0;
+}
+
+.information-buttons button:first-child{
+    width: 142px;
+height: 33px;
+padding: 8px 14px;
+gap: 4.28px;
+border-radius: 4px ;
+font-size: 14px;
+}
+
+.information-buttons button:last-child{
+    width: 104px;
+height: 33px;
+padding: 8px 14px;
+gap: 4.28px;
+border-radius: 4px ;
+border: 0.43px 0px 0px 0px;
+}
+
+.information-banner-mobile{
+    display: inline-block;
+    margin-left: -15px;
+}
+
+.services-boxes{
+    flex-wrap: wrap;
+}
+
+.services-title-and-subtitle{
+    margin-left: -50px;
+}
+
+.services-title-and-subtitle h3{
+max-width: 250px;
+}
+
+.services-title-and-subtitle p{
+    width: 368px; 
+    font-size: 14px;
+}
+
+.box-one span br{
+    display: none;
+}
+
+.information-banner-mobile img{
+    width: 450px;
+}
+
+.services-box{
+    width: 374px;
+}
+
+.safety-information-banner-and-button{
+    display: none;
+}
+
+.safety-information{
+    position: absolute;
+    top: 295%;
+    left: 40px;
+    
+}
+
+.safety-information-titles{
+    width: 330px;
+   
+}
+
+.safety-information-titles img{
+    width: 31px;
+    height: 31px;
+}
+
+.safety-information-titles p:nth-child(2){
+    width: 266px;
+    font-size: 14px;
+}
+
+.safety-information-titles button{
+    width: 142px;
+height: 33px;
+padding: 8px 14px ;
+gap: 4.28px;
+border-radius: 4px;
+background-color: #035E89;
+border: 0;
+color: white;
+font-family: Inter;
+font-size: 14px;
+
+}
+
+.safety-information-banner-mobile{
+    display: inline-block;
+}
+
+.safety-information-banner-mobile img{
+    width: 310px;
+    height: 154px;
+    position: absolute;
+    bottom: -70px;
+}
+
+.safety-information-parent{
+    max-width: 389px;
 }
 
 }
